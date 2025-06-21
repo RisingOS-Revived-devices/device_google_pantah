@@ -15,9 +15,11 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_cheetah.mk \
-    $(LOCAL_DIR)/yaap_panther.mk
+    $(LOCAL_DIR)/lineage_cheetah.mk \
+    $(LOCAL_DIR)/lineage_panther.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_panther-user \
-    yaap_cheetah-user
+    lineage_panther-user \
+    lineage_panther-userdebug \
+    lineage_cheetah-user \
+    lineage_cheetah-userdebug \

@@ -361,8 +361,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SettingsOverlayGFE4J \
     SettingsOverlayGE2AE \
-    SettingsOverlayGP4BC \
-    SettingsOverlayCheetah
+    SettingsOverlayGP4BC
 
 # eng specific
 ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
