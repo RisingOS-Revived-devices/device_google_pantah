@@ -26,9 +26,13 @@ TARGET_PREBUILT_BCR := true
 
 # Addons
 TARGET_HAS_UDFPS := true
+TARGET_PREBUILT_BCR := true
 
 # Gms 
 WITH_GMS := true
+
+#Ship Pixel Overlays
+WITH_PIXEL_OVERLAYS := false
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
@@ -37,6 +41,7 @@ TARGET_ENABLE_BLUR := true
 PRODUCT_USE_SCUDO := true
 
 RISING_MAINTAINER=EliteDarkKaiser
+RISING_VERSION := 8.0
 TARGET_FACE_UNLOCK_SUPPORTED := false
 
 # Boot animation
