@@ -21,6 +21,23 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7 Pro
 PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 
+# Ship Basic Call Recorder
+TARGET_PREBUILT_BCR := true
+
+# Addons
+TARGET_HAS_UDFPS := true
+
+# Gms 
+WITH_GMS := true
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+RISING_MAINTAINER=EliteDarkKaiser
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Google Tensor G2" \
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
